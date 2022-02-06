@@ -12,7 +12,7 @@ class ClearCheckboxesPlugin(PluginClass):
     }
 
 class ClearCheckboxesPageViewExtension(PageViewExtension):
-    @action('Clear Checkboxes', _('Clear Checkboxes'), 'gtk-clear')
+    @action('Clear Checkboxes', _('Clear Checkboxes'))
     def clear(self):
         buf = self.pageview.textview.get_buffer()
         for line in range(0, buf.get_line_count()):
