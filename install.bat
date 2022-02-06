@@ -1,0 +1,1 @@
+xcopy Plugin\*.* "%APPDATA%\zim\data\zim\plugins\ClearCheckboxes\" /Y
